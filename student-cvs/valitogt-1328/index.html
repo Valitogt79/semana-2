@@ -11,16 +11,13 @@
 <body>
     <main>
         <header>
-            <img src="/student-cvs/valitogt-1328/logo.jpeg" alt="Banner personal">
+            <img src="/logo.jpeg" alt="Banner personal">
             <h1>Hola, Soy <strong>Oswaldo Alonzo</strong> 👋</h1>
             <p>Me encuentro estudiando el Bootcamp de Desarrollo Frontend en <a
-                    href="https://undefined.academy/">Undefined
-                    Academy.</a></p>
+                    href="https://undefined.academy/">Undefined Academy.</a></p>
             <p>Mi objetivo es poder aprender, entender y desarrollar mis habilidades para entregar, crear y modificar
-                código de
-                alta calidad que sea legible, mantenible y escalable.</p>
+                código de alta calidad que sea legible, mantenible y escalable.</p>
         </header>
-
         <section>
             <article>
                 <h2>Habilidades 🛠️</h2>
@@ -60,9 +57,10 @@
                         <td>Crea un nuevo archivo dado un camino y/o nombre</td>
                     </tr>
                 </table>
-                <hr>
             </article>
             <article>
+                <br>
+                <hr>
                 <h3>
                     <strong>Alias en terminal</strong> 👽️
                 </h3>
@@ -94,16 +92,66 @@
                 </table>
             </article>
         </section>
+        <br>
+        <hr>
+        <section class="page">
+            <h2>Contactame</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="name" placeholder="Ingrese su Nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Ingrese su correo electronico" required>
+                </div>
+                <div class="form-group">
+                    <fieldset>
+                        <legend>Presupuesto</legend>
+                        <input type="radio" name="budget" id="10000" value="10000" required>
+                        <label for="10000">$ 10000</label>
 
+                        <input type="radio" name="budget" id="5000" value="5000" required>
+                        <label for="5000">$ 5000</label>
+
+                        <input type="radio" name="budget" id="1000" value="1000" required>
+                        <label for="1000">$ 1000</label>
+                    </fieldset>
+                    <div class="help">Este Presupuesto es la base, NO el total</div>
+                </div>
+                <div class="form-group">
+                    <label for="type">Tipo de Proyecto</label>
+                    <select id="type" name="type" required>
+                        <option selected disabled value="">Seleccione Uno</option>
+                        <option value="website">Website</option>
+                        <option value="webapp">APlicación WEB</option>
+                        <option value="mobile">Aplicación mobile</option>
+                        <option value="design">Diseño Web</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="description">Descripción</label>
+                    <textarea id="description" required name="description" rows="5"></textarea>
+                    <div class="help">Escribe una Descripción del proyecto en al menos 500 palabras</div>
+                </div>
+                <div class="form-group">
+                    <label for="terms">
+                        <input type="checkbox" id="terms" name="terms" value=""" required>
+          <span>Acepto los terminos y condiciones</span>
+        </label>
+      </div>
+      <button class=" button">Enviar</button>
+            </form>
+        </section>
         <section>
-            <h2>Contáctame 📫</h2>
-            <p><a href="https://github.com/Valitogt79">Github </a> 🖥️</p>
+            <h2>Social 📫</h2>
+            <p><a href=" https://github.com/Valitogt79">Github </a> 🖥️</p>
             <p><a href="https://www.linkedin.com/in/oswaldoalonzo/">LinkedIn</a> 💼</p>
         </section>
 
         <footer>
-            <p>¡Gracias por visitar mi perfil de <a href="https://github.com/Valitogt79">GitHub</a>! y darme tu feedback
-                😊</p>
+            <p>¡Gracias por visitar mi perfil de <a href="https://github.com/Valitogt79">GitHub</a> y darme tu feedback
+                😊 - &copy; <time datetime="2024-06-09">2024</time> Por Oswaldo Alonzo.</p>
         </footer>
     </main>
 
